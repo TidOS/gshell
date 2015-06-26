@@ -1,5 +1,5 @@
 /*
- *  jshell.c
+ *  gshell.c
  *  shell
  *
  *  This is a shell written in c that supports pipes
@@ -9,7 +9,6 @@
  *  is run, piping its output to the next command and 
  *  reading its input from the pipe before it.
  *  
- *  Created by Jordan McLastName on 9/2/07.
  *
  */
 #include <unistd.h>
