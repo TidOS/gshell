@@ -1,0 +1,5 @@
+# All object and binary files
+*.o
+gsh
+# This may get ported to Windows, so why not.
+*.exe
