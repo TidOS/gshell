@@ -6,8 +6,8 @@ CC = gcc
 
 
 CFLAGS   = -g -Wall
-INCFLAGS = -I . -I/usr/include/tcl8.4
-LFLAGS   = -ltcl8.4
+INCFLAGS = -I . -I/usr/include/tcl8.6
+LFLAGS   = -ltcl8.6
 
 SRCS = $(wildcard *.c)
 OBJS = $(SRCS:.c=.o)
